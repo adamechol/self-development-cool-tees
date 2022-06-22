@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-image img {
+    width: 100%;
+    position: relative;
+}
+
+.main-image .navbar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+}
+
+.main-image .navbar .menu {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-right: 5vw;
+}
+
+.main-image .navbar .menu img {
+    width: 2.5vw;
+}
+
+.main-image .navbar .logo img {
+    width: 15vw;
+}
+
+.main-image .navbar .logo {
+    width: 70%;
+    margin-left: 5vw;
+}
+.main-image .heading {
+    position: absolute;
+    top: 20vw;
+    left: 8vw;
+    width: 40vw;
+}
+.main-image .heading h1{
+    font-size: 5vw;
+    color: white;
+}
+
+.underline {
+    border-bottom: 5px solid black;
+}
+.container {
+    padding: 4vw 6vw;
+    width: 250px;
+}
+
+.container .shirt img {
+    width: 100%;
+}
+.container .shirt {
+    padding-top: 3vw;
+    position: relative;
+    width: 100%;
+}
+
+.container .shirt .like {
+    position: absolute;
+    top: 4vw;
+    Right: 6px;
+}
+
+.container .shirt .like img {
+    width: 3vw;
+
+}
+.shirt .item-bottom {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.added-cart {
+    border: 1px solid black;
+    border-radius: 99999px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    background-color: green;
+   
+}
+.t-shirts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.selected-just-for-you{
+    margin-left: 59px;
+    font-size: 4vw;
+    margin-top: 5vw;
+}
+footer {
+    text-align: center;
+    line-height: 2.5vw;
+    padding-top: 7vw;
+}
+.copyright {
+    border-top: 1px solid grey;
+    text-align: center;
+}
+.copyright p {
+    padding: 1.2vw 0vw;
+}
+.navbar-cart {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+}
+ .navbar-cart .menu img {
+    width: 2.5vw;
+}
+
+ .navbar-cart .logo img {
+    width: 15vw;
+}
+
+ .navbar-cart .logo {
+    width: 70%;
+    margin-left: 5vw;
+}
+ .navbar-cart .menu {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-right: 5vw;
+}
+table td img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+.cart-container h1 {
+    padding:4vw 4vw;
+}
+td button {
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    border: 1px solid grey;
+}
+
+.total .price-buttons button.next {
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.total .price-buttons button {
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    border: 1px solid grey;
+}
+
+.total {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    float: right;
+    align-items: center;
+    padding-top: 2vw;
+}
+
+.total .total-price {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.total .price-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.background {
+    position: relative;
+}
+
+.signup {
+    background-color: white;
+    width: 37%;
+    height: 76%;
+    position: fixed;
+    top: 2vw;
+    z-index: 1;
+    /* left: 11vw; */
+    text-align: center;
+    padding: 9px;
+    column-fill: revert;
+    display: grid;
+    border-radius: 25px;
+    transform: translateX(72%);
+}
+.signup input {
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 1vw;
+    width: 33vw;
+}
+
+button.signup-button {
+    background-color: blue;
+    width: 25vw;
+    color: whitesmoke;
+    border-radius: 7vw;
+    padding: 1vw;
+    border: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+}
+
+input[type="checkbox"] {
+    flex: 1;
+}
+
+p {
+    font-size: 17px;
+    flex: 3;
+}
+
+.input-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+.checkbox p {
+    font-size: 1.2vw;
+}

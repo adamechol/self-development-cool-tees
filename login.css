@@ -1,0 +1,63 @@
+.login {
+    background-color: white;
+    width: 30vw;
+    height: 33vw;
+    position: fixed;
+    top: 8vw;
+    z-index: 1;
+    text-align: center;
+    padding: 31px;
+    column-fill: revert;
+    display: grid;
+    border-radius: 25px;
+    transform: translateX(73%);
+    padding-bottom: 0vw;
+}
+.login input {
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 1vw;
+}
+
+button.login-button {
+    background-color: blue;
+    width: 25vw;
+    color: whitesmoke;
+    border-radius: 7vw;
+    padding: 1vw;
+    border: none;
+}
+
+.checkbox-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox-login .box-flex {
+    display: flex;
+}
+
+input[type="checkbox"] {
+    flex: 1;
+}
+
+p {
+    font-size: 17px;
+    flex: 3;
+}
+
+.input-box-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+.checkbox-login p {
+    font-size: 1.2vw;
+}
+
+.space p {
+    margin-top: 1vw;
+}

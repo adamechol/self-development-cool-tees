@@ -1,0 +1,88 @@
+.navbar-order {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+}
+ .navbar-order .menu img {
+    width: 2.5vw;
+}
+
+ .navbar-order .logo img {
+    width: 12vw;
+}
+
+.navbar-order .logo {
+    width: 70%;
+    margin-left: 5vw;
+}
+
+.navbar-order .menu {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-right: 5vw;
+}
+
+.order-heading {
+    background-color: blue;
+    color: white;
+    padding: 8vw;
+    text-align: center;
+    font-size: 4vw;
+    
+}
+
+.order-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+.order-total {
+    padding: 3vw 4vw;
+    width: 50%;
+}
+.order-items button{
+        padding: 0.5vw 2vw;
+        border-radius: 15px;
+        border: 1px solid grey;
+    }
+.forms input {
+    padding: 9px;
+    border-radius: 8px;
+    width: 24vw;
+    margin: 1vw 0vw;
+}
+
+.forms-order {
+    padding: 3vw 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.forms-order button{
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    border: none;
+    background-color: blue;
+    color: white;
+    width: 10vw;
+}
+
+.thanks{
+    text-align: center;
+    margin: 2vw 0vw;
+}
+
+.thanks button {
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    border: none;
+    background-color: blue;
+    color: white;
+    width: 10vw;
+    margin-top: 3vw;
+}
