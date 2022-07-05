@@ -2,8 +2,13 @@ import axios from 'axios';
 const LOGIN_USER_KEY = 'LOGIN_USER_KEY';
 
 var baseURL;
-
-baseURL = 'http://127.0.0.1:8000';
+// if (
+//   process.env.REACT_APP_ENVIRONMENT &&
+//   process.env.REACT_APP_ENVIRONMENT === "PRODUCTION"
+// ) {
+//   baseURL = process.env.REACT_APP_API_BASE_URL;
+// } else
+baseURL = 'https://backend-adam-cooltees.herokuapp.com/';
 
 const api = axios.create({
     baseURL: baseURL,
@@ -96,7 +101,7 @@ export default class API {
 
     getCarts = async () => {
         const carts = await api
-            .get('/carts/',{requiredtoken:true})
+            .get('/carts/')
             .then(response => {
                 return response.data;
             })
@@ -111,7 +116,7 @@ export default class API {
             .post('/carts/add/', {
                 item: item_id,
                 quantity: 1
-            },{requiredtoken:true})
+            })
             .then(response => {
                 return response.data;
             })
