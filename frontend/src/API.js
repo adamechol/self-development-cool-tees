@@ -167,48 +167,4 @@ export default class API {
             });
         return order;
     };
-
-    ///////////////////////////////////////////
-    // Reference Post
-    //////////////////////////////////////////
-
-    getPosts = async () => {
-        const posts = await api
-            .get('/posts/')
-            .then(response => {
-                return response.data;
-            })
-            .catch(error => {
-                throw new Error(error);
-            });
-        return posts;
-    };
-
-    addPost = async (name, body, image) => {
-        const formData = new FormData();
-        formData.append('name', name);
-        formData.append('body', body);
-        formData.append('image', image);
-        const savedPost = await api
-            .post('/posts/add/', formData)
-            .then(response => {
-                return response.data;
-            })
-            .catch(error => {
-                throw new Error(error);
-            });
-        return savedPost;
-    };
-
-    deletePost = async id => {
-        const response = await api
-            .delete('/posts/delete/' + id + '/')
-            .then(response => {
-                return response.data;
-            })
-            .catch(error => {
-                throw new Error(error);
-            });
-        return response;
-    };
 }
