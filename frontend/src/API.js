@@ -8,7 +8,7 @@ var baseURL;
 // ) {
 //   baseURL = process.env.REACT_APP_API_BASE_URL;
 // } else
-baseURL = 'https://backend-adam-cooltees.herokuapp.com/';
+baseURL = 'https://backend-isze-cooltees.herokuapp.com/';
 
 const api = axios.create({
     baseURL: baseURL,
